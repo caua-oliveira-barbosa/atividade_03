@@ -27,3 +27,6 @@ Cypress.Commands.add('getByData', (seletor) => {
     return cy.get(`[data-test=${seletor}]`)
 })
 
+Cypress.Commands.add('getBynumber', (seletor) => {
+    return cy.get(`[data-test=${seletor}]`)
+})
