@@ -36,4 +36,10 @@ describe('pagina inicial', () => {
   it('Deve renderizar as imagens com sucesso', () => {
     cy.get('#main2')
   })
+
+  describe('Testando múltiplas páginas', () => {
+    it('Deve conseguir acessar a página de cartões'), () => {
+    cy.visit('http://localhost:3000')
+}})
+
 })
